@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.instagram-post {
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-pic {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.user-info {
+    flex-grow: 1;
+}
+
+.username {
+    font-weight: bold;
+    display: block;
+    vertical-align: top;
+}
+
+.location {
+    color: #8e8e8e;
+    font-size: 12px;
+    display: block;
+    margin-top: -5px;
+    /* Ajustar según sea necesario */
+}
+
+.options {
+    font-size: 20px;
+    cursor: pointer;
+    align-self: flex-start;
+    /* Alinear los tres puntos en la parte superior derecha */
+}
+
+.post-image {
+    width: 100%;
+    }
+
+.post-interactions {
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.icon {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.likes {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
